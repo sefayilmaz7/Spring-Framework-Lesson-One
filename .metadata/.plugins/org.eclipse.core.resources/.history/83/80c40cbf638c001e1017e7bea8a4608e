@@ -1,0 +1,15 @@
+package kodlama.io.rentAcar.entities.concretes;
+
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Table(name="brands")
+public class Brand {
+	
+	private int id;
+	private String name;
+	
+	
+	
+	
+}
